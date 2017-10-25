@@ -88,7 +88,7 @@ li{
 	float: left;
 }
 /*transformar a mayúscula*/
-.en, .title, .item, h2 {
+.en, .start, .title, .item, h2 {
 	text-transform: uppercase;
 }
 /*cambiar de color al pasar el mouse por encima*/
