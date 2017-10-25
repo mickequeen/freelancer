@@ -1,3 +1,339 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.subtitle, p, .down, .sd, .foot{
+	font-family: 'Lato', sans-serif;
+}
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+}
+/*dimension basal de cajas*/
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 9%;
+	padding-right: 5%;
+}
+
+.container:before, .container:after {
+	content: " ";
+	display: table;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container:after {
+	clear: both;
+}
+
+/*color de fondo, color de letra tipo de posición
+ y orden del menú de arriba*/
+.top{
+	background-color: #2C3E50;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	left: 0px;
+	position: fixed;
+	float: left;
+	z-index: 1600;
+}
+/*link superior izquierdo */
+.start{
+	display: inline-block;
+	padding-top:3%;
+	padding-bottom: 3%;
+	width: 25%;
+	font-size: 26px;
+	font-weight: bold;
+	position: relative;
+}
+/*links superior derecho*/
+.menu{
+	list-style: none;
+	width: 75%;
+	display: inline-block;
+	position: relative;
+	padding-left: 510px;
+	text-align: center;
+	padding-top: 2.5%;
+	font-weight: 700;
+}
+/*tamaño de los elementos en lista, orden hacia el lado*/
+li{
+	height: 30px;
+	width: 27%;
+	float: left;
+}
+/*transformar a mayúscula*/
+.en, .title, .item, h2 {
+	text-transform: uppercase;
+}
+/*cambiar de color al pasar el mouse por encima*/
+li a:hover{
+	color: #18BC9C
+}
+/*quitar el formato de link a los elementos del menú,
+cambiar color a blanco, definir tamaño de fuente*/
+.en{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+/*definir color de primera caja*/
+.bootstrap{
+	background-color: #18BC9C;	
+	height: 770px;
+}
+/*tamaño y ubicacion de primer logo*/
+.profile{
+	padding-top: 15%;
+	padding-left: 41%;
+	padding-bottom: 2%;
+}
+/*tamaño, color y ubicacion titulo primer bloque*/
+.title{
+	font-size: 79px;
+	font-weight: 700;
+	color: #FFFFFF;
+	padding-left: 22%;
+	display: block;
+}
+/*caja que envuelve adornos*/
+.ornament{
+	float: left;
+	margin-left: 41%;
+	display: block;
+	width: 790px;
+
+}
+/* color, largo y ancho de primera barra ornmental*/
+.bar{
+    background-color: #FFFFFF ;
+    width: 100px;
+    height:5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/*estrella ornamental*/
+.star{
+	color: white;
+	font-size: 45px;
+	display: inline-block;
+}
+
+.subtitle{
+	color: white;
+	font-size: 28px;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+}
+.portfolio{
+	height: 700px;
+}
+
+.item{
+	font-size: 48px;
+	font-weight: bolder;
+	color: #212529;
+	text-align: center;
+	margin-top:98px;
+	display: block;
+}
+
+.blackStar{
+	color: #2C3E50;
+	display: inline-block;
+
+}
+.black{
+	display: inline-block;
+	background-color:#2C3E50;
+	top
+}
+.firstFile{
+	margin-left:9%;
+		
+}
+.img{
+	height: 250px;
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.secondFile{
+	margin-left: 9%;
+
+}
+.about{
+	background-color: #18BC9C;
+	height: 440px;
+	color: white;
+}
+.second{
+	color: white;
+	padding-top: 95px;
+}
+.paragraphs{
+	margin-left: 21%;
+
+}
+p{
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 150%;
+}
+
+.column{
+	width: 33%;
+	float: left;
+	margin-left: 30px;
+}
+.dwn{
+	height: 140px;	
+	background-color: #18BC9C;
+	width: 100%;
+	
+}
+.download{
+	display: block;
+	bottom: 10px;
+	height: 50px;
+	width: 220px;
+	border: 2px solid white;
+	border-radius: 5px;
+	margin-left: 42%;
+}
+.down{
+	color: white;
+	font-size: 20px;
+	margin-top: 9px;
+	margin-left: 20px;
+}
+
+.contact{
+	height: 830px;
+	width: 100%;
+}
+.contact form{
+	margin-left: 23%;
+	padding-top: 30px;
+}
+
+.contact form input{
+	display: block;
+	border: none;
+	border-bottom: 1px solid #eee;
+	width: 500px;
+	height: 95px;
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+.contact #msj{
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.send{
+	height: 50px;
+	width: 80px;
+	background-color: #18BC9C;
+	border-radius: 5px;	
+	margin-left: 23%;
+	margin-top: 2%;
+	
+}
+.sd{
+	color: white;
+	font-size: 21px;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer{
+	background-color: #2C3E50;
+	height: 345px;
+}
+.bott{
+ 	padding-left: 120px;
+ 	padding-top: 30px;
+ 	
+}
+
+.ti{
+	color: #fff;
+	margin-top: 10px;
+	display: inline-block;
+	width: 360px;
+	vertical-align: text-top;
+	text-align: center;
+
+}
+ h2{
+
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 27px;
+
+}
+.foot{
+	line-height: 50%;
+	text-align: center;
+}
+
+h2 .location{
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+.dif{
+	color: #18BC9C;
+}
+.last{
+	height: 100%;
+}
+.ik{
+	font-size: 45px;
+	padding-left: 10px;
+}
+.ik:hover{
+	color: #18BC9C
+}
+.lk{
+	color: #ffffff;
+	text-decoration: none;
+}
+.final{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 20px;
+}
