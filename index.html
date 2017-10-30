@@ -17,40 +17,51 @@
 			<div class="container top">
 				<a class="start top" href="#">start bootstrap</a>
 				<div>
+					<!-- menú superior derecho -->
 					<ul class="menu top">
-						<li><a class="en" href="#">portfolio</a></li>
-						<li><a class="en" href="#">about</a></li>
-						<li><a class="en" href="#">contact</a></li>
+						<li>
+							<a class="en" href="#">portfolio</a>
+						</li>
+						<li>
+							<a class="en" href="#">about</a>
+						</li>
+						<li>
+							<a class="en" href="#">contact</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
+
 		<!-- primer bloque	 -->
 	<main>
 		<section class="bootstrap">
-			<div class="inside"></div>
-				<img class="profile" src="assets/images/profile.png">
-				<div class="principal">
-					<span class="principal title">start bootstrap</span>
-					<div class="ornament">
-						<div class="bar"></div>
-						<div class="star"><span>★</span></div>
-						<div class="bar"></div>
-					</div>
-					<div class="principal subtitle">
-						<span>Web Developer - </span>
-						<span>Graphic Artist - </span>
-						<span>User Experience Designer</span>
-					</div>	
+			<!-- imagen central -->
+			<img class="profile" src="assets/images/profile.png">
+			<!-- contenedor para letras y adornor de primer section -->
+			<div class="principal">
+				<span class="principal title">start bootstrap</span>
+				<!-- clase para conjunto de barras y estrellas -->
+				<div class="ornament">				
+					<div class="bar"></div>
+					<div class="star"><span>★</span></div>
+					<div class="bar"></div>
 				</div>
+				<!-- contenedor para subtitulo primer section -->
+				<div class="principal subtitle">
+					<span>Web Developer - </span>
+					<span>Graphic Artist - </span>
+					<span>User Experience Designer</span>
+				</div>	
+			</div>
 		</section>
 	
 		<!-- segundo bloque -->
 		<section class="portfolio">
 			
 			<div class="first item">portfolio</div>
-			<!-- barritas y estrella -->
+			<!-- barritas y estrella en negro-->
 			<div class="ornament">
 				<div class="bar black"></div>
 				<div class="star blackStar"><span>★</span></div>
@@ -81,31 +92,42 @@
 				</div>
 			</div>
 		</section>
+
 		<!-- tercer bloque -->
 		<section class="about">
+			<!-- título del bloque -->
 			<div class="second item">about</div>
+			<!-- ornamentos con clases predefinidas -->
 			<div class="ornament">
 				<div class="bar"></div>
 				<div class="star"><span>★</span></div>
 				<div class="bar"></div>
 			</div>	
-
+			<!--contenedor de 2 párrafos -->
 			<div class="paragraphs">
+				<!-- contenedor de primera columna -->
 				<div class="column one">
 					<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
 					</p>
 				</div>
+				<!-- contenedor de segunda columna -->
 				<div class="column two">
 					<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
 				</div>				
-				
 			</div>			
-				
 		</section>
+
+		<!-- mini contenedor para botón de descarga -->
 		<div class="dwn">
-					<div class="download">	
-					<div class="down"><span class="icon-download"></span>    Download Theme</div>
-					</div>
+						
+			<div class="download">	
+				<div class="down">
+					<a id="dwnl" href="#">
+						<!-- icono de descarga -->
+						<span class="icon-download"></span>    Download Theme
+					</a>
+				</div>					
+			</div>
 		</div>
 
 		<!-- cuarto bloque, zona de contacto -->
@@ -116,18 +138,19 @@
 				<div class="star blackStar"><span>★</span></div>
 				<div class="bar black"></div>
 			</div>
-
-
+			<!-- formulario de ingreso datos -->
 			<form action="#">
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="Email Address">
 				<input type="number" placeholder="Phone Number">
 				<input id="msj" type="textarea" placeholder="Message">
 			</form>
-
+		<!-- botón send -->
 			<div class="send"><div class="sd">Send</div></div>
 		</section>
+	</main>
 	<footer>
+		<!-- contenedor para divs del footer -->
 		<div class="bott">
 			<div class="ti ft location">
 				<h2>location</h2>
@@ -136,29 +159,39 @@
 			</div>
 			<div class="ti ft">
 				<h2>around the web</h2>
+				<!-- links a redes sociales mediante íconos -->
 				<div> 
-					<a class="lk" href="#"><span class="ik icon-facebook"></span></a>
-					<a class="lk" href="#"><span class="ik icon-googleplus"></span></a>
-					<a class="lk" href="#"><span class="ik icon-twitter"></span></a>
-					<a class="lk" href="#"><span class="ik icon-linkedin"></span></a>
-					<a class="lk" href="#"><span class="ik icon-dribbble"></span></a>
+					<a class="lk" href="#">
+						<span class="ik icon-facebook"></span>
+					</a>
+					<a class="lk" href="#">
+						<span class="ik icon-googleplus"></span>
+					</a>
+					<a class="lk" href="#">
+						<span class="ik icon-twitter"></span>
+					</a>
+					<a class="lk" href="#">
+						<span class="ik icon-linkedin"></span>
+					</a>
+					<a class="lk" href="#">
+						<span class="ik icon-dribbble"></span>
+					</a>
 				</div>
 			</div>
+
+			<!-- último párrafo -->
 			<div class="ti ft">
 				<h2>about freelancer</h2>
 				<p class="foot">Freelance is a free to use, open source</p>
-				<p class="foot last">Bootstrap theme created by <a class="lk" href="#"><span class="dif">Start</span></p>
+				<p class="foot">Bootstrap theme created by <a id="startBootstrap" href="#"><span class="dif">Start</span></p>
 				<p class="dif">Bootstrap</p></a>
-
-			
 			</div>
 		</div>
+		<!-- texto final al pié de página -->
 		<div>
 			<p class="final">Copyright © Mickequeen 2017</p>
 		</div>	
 	</footer>
-
-
-	</main>
+	
 </body>
 </html>

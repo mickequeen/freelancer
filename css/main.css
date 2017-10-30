@@ -1,12 +1,11 @@
+/*fuente por defecto del body*/
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+/*fuente para estos elementos*/
 .subtitle, p, .down, .sd, .foot{
 	font-family: 'Lato', sans-serif;
 }
-/*font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;*/
-
 
 * {
 	-webkit-box-sizing: border-box;
@@ -19,11 +18,12 @@ font-family: 'Montserrat', sans-serif;*/
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+/*ancho predeterminado del body, con 0 margen*/
 body {
 	margin: 0 auto;
 	width: 100%;
 }
+
 /*dimension basal de cajas*/
 .container {
 	width: 100%;
@@ -43,7 +43,6 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 .container:after {
 	clear: both;
 }
@@ -60,6 +59,7 @@ body {
 	float: left;
 	z-index: 1600;
 }
+
 /*link superior izquierdo */
 .start{
 	display: inline-block;
@@ -70,6 +70,7 @@ body {
 	font-weight: bold;
 	position: relative;
 }
+
 /*links superior derecho*/
 .menu{
 	list-style: none;
@@ -81,20 +82,24 @@ body {
 	padding-top: 2.5%;
 	font-weight: 700;
 }
+
 /*tamaño de los elementos en lista, orden hacia el lado*/
 li{
 	height: 30px;
 	width: 27%;
 	float: left;
 }
+
 /*transformar a mayúscula*/
 .en, .start, .title, .item, h2 {
 	text-transform: uppercase;
 }
+
 /*cambiar de color al pasar el mouse por encima*/
 li a:hover{
 	color: #18BC9C
 }
+
 /*quitar el formato de link a los elementos del menú,
 cambiar color a blanco, definir tamaño de fuente*/
 .en{
@@ -102,17 +107,20 @@ cambiar color a blanco, definir tamaño de fuente*/
 	color: white;
 	font-size: 17px;
 }
+
 /*definir color de primera caja*/
 .bootstrap{
 	background-color: #18BC9C;	
 	height: 770px;
 }
+
 /*tamaño y ubicacion de primer logo*/
 .profile{
 	padding-top: 15%;
 	padding-left: 41%;
 	padding-bottom: 2%;
 }
+
 /*tamaño, color y ubicacion titulo primer bloque*/
 .title{
 	font-size: 79px;
@@ -121,14 +129,15 @@ cambiar color a blanco, definir tamaño de fuente*/
 	padding-left: 22%;
 	display: block;
 }
+
 /*caja que envuelve adornos*/
 .ornament{
 	float: left;
 	margin-left: 41%;
 	display: block;
 	width: 790px;
-
 }
+
 /* color, largo y ancho de primera barra ornmental*/
 .bar{
     background-color: #FFFFFF ;
@@ -145,6 +154,7 @@ cambiar color a blanco, definir tamaño de fuente*/
 	display: inline-block;
 }
 
+/*color, tamaño, ubicación y grosor de fuente de subtítulo*/
 .subtitle{
 	color: white;
 	font-size: 28px;
@@ -152,10 +162,14 @@ cambiar color a blanco, definir tamaño de fuente*/
 	width: 100%;
 	text-align: center;
 }
+
+/*tamaño contenedor de portafolio*/
 .portfolio{
 	height: 700px;
 }
 
+/*clase a llamar para todos los títulos de sección
+tamaño de fuente, centrado, margen respecto al top, tipo de display*/
 .item{
 	font-size: 48px;
 	font-weight: bolder;
@@ -165,20 +179,24 @@ cambiar color a blanco, definir tamaño de fuente*/
 	display: block;
 }
 
+/*cambiar color para estrellas en fondo blanco */
 .blackStar{
 	color: #2C3E50;
 	display: inline-block;
-
 }
+
+/*cambio de color a barras*/
 .black{
 	display: inline-block;
 	background-color:#2C3E50;
-	top
 }
+
+/*margen desde la izquierda para primera fila de imágenes de portfolio*/
 .firstFile{
-	margin-left:9%;
-		
+	margin-left:9%;		
 }
+
+/*tamaño, margen y ubicación de imágenes de portafolio*/
 .img{
 	height: 250px;
 	margin-top: 10px;
@@ -186,41 +204,51 @@ cambiar color a blanco, definir tamaño de fuente*/
 	margin-bottom: 20px;
 	float: left;
 }
-
+/*segunda fila imagenes de portafolio*/
 .secondFile{
 	margin-left: 9%;
-
 }
+
+/*color de fondo, alto y color de fuente de sección about*/
 .about{
 	background-color: #18BC9C;
 	height: 440px;
 	color: white;
 }
+
+/*color de título about, distancia desde del top del contenedor*/
 .second{
 	color: white;
 	padding-top: 95px;
 }
+
+/*espacio a la izquierda del contenedor de ambos párrafos*/
 .paragraphs{
 	margin-left: 21%;
-
 }
+
+/*tamaño de fuente, grosor e interlineado de párrafos*/
 p{
 	font-size: 20px;
 	font-weight: lighter;
 	line-height: 150%;
 }
 
+/*posición, ancho y margen de columnas*/
 .column{
 	width: 33%;
 	float: left;
 	margin-left: 30px;
 }
+
+/*color de fondo y dimensiones de minibloque de descarga */
 .dwn{
 	height: 140px;	
 	background-color: #18BC9C;
-	width: 100%;
-	
+	width: 100%;	
 }
+
+/*botón de descarga*/
 .download{
 	display: block;
 	bottom: 10px;
@@ -230,22 +258,35 @@ p{
 	border-radius: 5px;
 	margin-left: 42%;
 }
+
+/*ubicación de letras dentro del botón*/
 .down{
-	color: white;
+	color: #FFF;
 	font-size: 20px;
 	margin-top: 9px;
 	margin-left: 20px;
 }
 
+/*quitar aspecto de link a letras e icono dentro del botón*/
+#dwnl{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*alto y ancho a sección de contacto*/
 .contact{
 	height: 830px;
 	width: 100%;
 }
+
+/*ubicación de formulario*/
 .contact form{
 	margin-left: 23%;
 	padding-top: 30px;
 }
 
+/*largo, ancho, subrayado, tipo de display 
+de cada linea del formulario*/
 .contact form input{
 	display: block;
 	border: none;
@@ -256,11 +297,13 @@ p{
 	font-family: 'Lato', sans-serif;
 }
 
+/*espacio para mensaje en formulario más grande que el resto*/
 .contact #msj{
 	padding-top: 50px;
 	padding-bottom: 200px;
 }
 
+/*botón send, forma, color, ubicación*/
 .send{
 	height: 50px;
 	width: 80px;
@@ -268,26 +311,30 @@ p{
 	border-radius: 5px;	
 	margin-left: 23%;
 	margin-top: 2%;
-	
 }
+
+/*color fuente, tamaño, alineado y grosor letras en botón send*/
 .sd{
-	color: white;
+	color: #FFF;
 	font-size: 21px;
 	font-weight: bolder;
 	text-align: center;
 	padding-top: 10px;
 }
 
+/*alto y color de fondo del pie de página*/
 footer{
 	background-color: #2C3E50;
 	height: 345px;
 }
+
+/*ubicación contenedores del footer*/
 .bott{
  	padding-left: 120px;
  	padding-top: 30px;
- 	
 }
 
+/*prototipo titulos del footer*/
 .ti{
 	color: #fff;
 	margin-top: 10px;
@@ -295,42 +342,62 @@ footer{
 	width: 360px;
 	vertical-align: text-top;
 	text-align: center;
-
 }
- h2{
 
+/*ubicación y tamaño de fuente títulos del footer*/
+ h2{
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 27px;
-
 }
+
+/*interlineado y alineacion parrafos del footer*/
 .foot{
 	line-height: 50%;
 	text-align: center;
 }
 
+/*ubicacion titulo location en footer*/
 h2 .location{
 	margin-top: -20px;
 	margin-bottom: 50px;
 }
 
+/*dos palabras con diferente color en último párrafo del footer*/
 .dif{
 	color: #18BC9C;
 }
-.last{
-	height: 100%;
-}
+
+/*tamaño y espaciado de iconos redes sociales*/
 .ik{
 	font-size: 45px;
 	padding-left: 10px;
 }
+
+/*cubierta al pasar mouse por iconos*/
 .ik:hover{
-	color: #18BC9C
+	color: #18BC9C;
 }
+
+/*quitar aspecto de link a iconos y letras de último párrafo*/
 .lk{
 	color: #ffffff;
 	text-decoration: none;
 }
+
+/*quitar aspecto de link a letras de ultimo párrafo*/
+#startBootstrap{
+	text-decoration: none;
+	line-height: 1px;
+}
+
+/*poner linea inferior al pasar link a letras de ultimo párrafo*/
+#startBootstrap:hover{
+	color: #18BC9C;
+	text-decoration: underline;
+}
+
+/*color, alineado, tamaño fuente y distancia desde su contenedor de último texto del footer*/
 .final{
 	color: #fff;
 	text-align: center;
